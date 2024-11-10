@@ -242,6 +242,23 @@ footer p {
     width: 50px;
   }
 }
+@font-face {
+  font-family: 'Super Shiny';
+  src: url('SuperShiny.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenDyslexic3';
+  src: url('OpenDyslexic3-Regular.ttf') format('truetype');
+}
+
+h1, h2, h3 { 
+  font-family: 'Super Shiny', sans-serif; 
+}
+
+body, p {
+  font-family: 'OpenDyslexic3', sans-serif;
+}
 
 @keyframes slideUp {
   from {
